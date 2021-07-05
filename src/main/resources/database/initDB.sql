@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS client
+(
+    id    BIGSERIAL PRIMARY KEY ,
+    chatId VARCHAR(30) NOT NULL
+);
